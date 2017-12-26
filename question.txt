@@ -1,0 +1,5 @@
+1. var arr = [44,55,10,29,44,87]; var myres = arr.reduce(function(a,b){return a-b}); console.log(myres)
+
+;-181
+
+2. var arr = [10,29,44,87]; var myres = arr.filter(function(b,a){ if(a<b){return a}else{b}}); console.log(myres)

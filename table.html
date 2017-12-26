@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+
+
+
+</head>
+
+<body>
+
+<table id="demo" style="padding:10px;" cellpadding="10px" cellspacing="10px" border="1px;" ></table> 
+<script>
+var names =["manish1", "manish2", "manish3","manish4"];
+var rolls =[24, 44, 65, 87 ]
+function tableform(){
+	var table = "<tr><td>Name</td><td>Roll No</td></tr>"
+	for(var i=0; i<names.length; i++){
+		table += "<tr><td>"
+		+ names[i]+ "</td><td>" +rolls[i]
+		+ "</td></tr>"
+		}
+	document.getElementById("demo").innerHTML = table;
+
+	}
+tableform();
+</script>
+</body>
+</html>
